@@ -10,5 +10,9 @@ class Jorong extends Model
     use HasFactory;
     protected $table = 'jorong';
 
+    public function nagari(){
+        return $this->belongsTo('nagari');
+    }
+
     public $timestamps = false;
 }
