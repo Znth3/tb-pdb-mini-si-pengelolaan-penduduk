@@ -13,9 +13,9 @@ class CreateJorongsTable extends Migration
      */
     public function up()
     {
-        Schema::create('jorongs', function (Blueprint $table) {
+        Schema::create('jorong', function (Blueprint $table) {
             $table->id();
-            $table->timestamps();
+            $table->foreignId('nagari_id')->constrained('nagari');
         });
     }
 
@@ -26,6 +26,6 @@ class CreateJorongsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('jorongs');
+        Schema::dropIfExists('jorong');
     }
 }

@@ -13,9 +13,11 @@ class CreateKartuKeluargasTable extends Migration
      */
     public function up()
     {
-        Schema::create('kartu_keluargas', function (Blueprint $table) {
+        Schema::create('kartu_keluarga', function (Blueprint $table) {
             $table->id();
-            $table->timestamps();
+            $table->string('no');
+            $table->foreignId('jorong_id')->constrained('jorong');
+            $table->date('tanggal_pencatatan');
         });
     }
 
@@ -26,6 +28,6 @@ class CreateKartuKeluargasTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('kartu_keluargas');
+        Schema::dropIfExists('kartu_keluarga');
     }
 }

@@ -13,9 +13,9 @@ class CreateLevelPendidikansTable extends Migration
      */
     public function up()
     {
-        Schema::create('level_pendidikans', function (Blueprint $table) {
+        Schema::create('level_pendidikan', function (Blueprint $table) {
             $table->id();
-            $table->timestamps();
+            $table->string('nama');
         });
     }
 
@@ -26,6 +26,6 @@ class CreateLevelPendidikansTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('level_pendidikans');
+        Schema::dropIfExists('level_pendidikan');
     }
 }

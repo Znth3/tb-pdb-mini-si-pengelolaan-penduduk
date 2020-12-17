@@ -13,9 +13,9 @@ class CreateKewarganegaraansTable extends Migration
      */
     public function up()
     {
-        Schema::create('kewarganegaraans', function (Blueprint $table) {
+        Schema::create('kewarganegaraan', function (Blueprint $table) {
             $table->id();
-            $table->timestamps();
+            $table->string('nama');
         });
     }
 
@@ -26,6 +26,6 @@ class CreateKewarganegaraansTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('kewarganegaraans');
+        Schema::dropIfExists('kewarganegaraan');
     }
 }

@@ -13,9 +13,23 @@ class CreatePenduduksTable extends Migration
      */
     public function up()
     {
-        Schema::create('penduduks', function (Blueprint $table) {
+        Schema::create('penduduk', function (Blueprint $table) {
             $table->id();
-            $table->timestamps();
+            $table->foreignId('keluarga_id')->constrained('kartu_keluarga');
+            $table->foreignId('kewarganegaraan_id')->constrained('kewarganegaraan');
+            $table->foreignId('pekerjaan_id')->constrained('pekerjaan');
+            $table->foreignId('level_pendidikan_id')->constrained('level_pendidikan');
+
+            $table->string('nama');
+            $table->string('nik')->unique();
+            $table->string('tempat_lahir');
+            $table->date('tanggal_lahir');
+            $table->string('agama');
+            $table->string('jenis_kelamin');
+            $table->string('status_pernikahan');
+            $table->string('status_keluarga');
+            $table->string('ayah');
+            $table->string('ibu');
         });
     }
 
@@ -26,6 +40,6 @@ class CreatePenduduksTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('penduduks');
+        Schema::dropIfExists('penduduk');
     }
 }
