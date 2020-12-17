@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class LevelPendidikan extends Model
 {
     use HasFactory;
+    protected $table = 'level_pendidikan';
 
     public $timestamps = false;
 }

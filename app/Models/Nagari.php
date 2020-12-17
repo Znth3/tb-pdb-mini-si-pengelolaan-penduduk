@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Nagari extends Model
 {
     use HasFactory;
+    protected $table = 'nagari';
 
     public $timestamps = false;
 }
