@@ -22,7 +22,8 @@ class KartuKeluargaFactory extends Factory
     public function definition()
     {
         return [
-            //
+            'no'=> $this->faker->macAddress,
+            'tanngal_pencatatan'=>$this->faker->date('yyyy/MM/dd')
         ];
     }
 }

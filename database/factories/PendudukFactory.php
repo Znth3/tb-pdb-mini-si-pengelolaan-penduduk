@@ -22,7 +22,13 @@ class PendudukFactory extends Factory
     public function definition()
     {
         return [
-            //
+            'nama'=>$this->faker->name,
+            'nik'=>$this->faker->bankAccountNumber,
+            'tempat_lahir'=>$this->faker->state,
+            'tanggal_lahir'=>$this->faker->dateTimeBetween(),
+            'agama'=>$this->faker->colorName,
+            'jenis_kelamin'=>$this->faker->randomLetter,
+
         ];
     }
 }
