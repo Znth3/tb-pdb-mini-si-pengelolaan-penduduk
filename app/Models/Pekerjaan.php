@@ -10,6 +10,5 @@ class Pekerjaan extends Model
     use HasFactory;
     protected $table = 'pekerjaan';
 
-
     public $timestamps = false;
 }
