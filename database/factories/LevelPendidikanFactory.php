@@ -22,7 +22,7 @@ class LevelPendidikanFactory extends Factory
     public function definition()
     {
         return [
-            'nama'=>$this->faker->colorName
+
         ];
     }
 }
