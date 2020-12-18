@@ -12,6 +12,7 @@
                             <th>Nomor KK</th>
                             <th>Nagari</th>
                             <th>Jorong</th>
+                            <th>Total Anggota</th>
                             <th>Tanggal Pencatatan</th>
                             <th>Aksi</th>
                         </tr>
@@ -22,6 +23,7 @@
                                     <td>{{ $kartu->no }}</td>
                                     <td>{{ $kartu->jorong->nagari->nama }}</td>
                                     <td>{{ $kartu->jorong->nama }}</td>
+                                    <td>{{ $kartu->penduduks_count }}</td>
                                     <td>{{ $kartu->tanggal_pencatatan }}</td>
                                     <td>
                                         <div class="btn-group">

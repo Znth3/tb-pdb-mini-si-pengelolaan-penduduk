@@ -11,7 +11,7 @@ class KartuKeluarga extends Model
     protected $table = 'kartu_keluarga';
 
     public function penduduks(){
-        return $this->hasMany(Penduduk::class);
+        return $this->hasMany(Penduduk::class, 'keluarga_id', 'id');
     }
 
     public function jorong(){
