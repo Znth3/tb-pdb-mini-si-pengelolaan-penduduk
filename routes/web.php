@@ -16,3 +16,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('home');
 });
+
+Route::resource('penduduk', \App\Http\Controllers\PendudukController::class);
+Route::resource('keluarga', \App\Http\Controllers\KartuKeluargaController::class);
