@@ -9,6 +9,8 @@
 
     <link rel="stylesheet" href="https://unpkg.com/@coreui/coreui/dist/css/coreui.min.css">
     <link rel="stylesheet" href="https://unpkg.com/@coreui/icons@2.0.0-beta.3/css/free.min.css">
+
+    <script src="https://kit.fontawesome.com/d68e195515.js"></script>
 </head>
 <body class="c-app">
 @include('layouts.sidebar')
