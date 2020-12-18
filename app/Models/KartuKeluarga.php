@@ -11,11 +11,11 @@ class KartuKeluarga extends Model
     protected $table = 'kartu_keluarga';
 
     public function penduduks(){
-        return $this->hasMany('penduduk');
+        return $this->hasMany(Penduduk::class);
     }
 
     public function jorong(){
-        return $this->belongsTo('jorong');
+        return $this->belongsTo(Jorong::class);
     }
 
     public $timestamps = false;
