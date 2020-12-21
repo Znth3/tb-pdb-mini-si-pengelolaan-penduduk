@@ -4,7 +4,9 @@
     <div class="row">
         <div class="col-lg-12">
             <div class="card">
-                <div class="card-header"></div>
+                <div class="card-header">
+                    <span><Informasi Kartu Keluarga</span>
+                </div>
                 <div class="card-body">
                     <div class="form-group row">
                         <div class="col-md-3">
@@ -47,7 +49,15 @@
 
         <div class="col-lg-12">
             <div class="card">
-                <div class="card-header"></div>
+                <div class="card-header">
+                    Informasi Anggota Keluarga
+                    <span class="float-right">
+                        <a href="{{ route('penduduk.create') }}" class="btn btn-">
+                            <i class="fas fa fa-plus-circle"></i>
+                        <span>Tambah Anggota Keluarga</span> </a>
+
+                    </span>
+                </div>
                 <div class="card-body">
                     <table class="table table-responsive-md table-bordered table-stripped">
                         <thead>
@@ -72,7 +82,8 @@
                                     <td>{{ $penduduk->status_keluarga }}</td>
                                     <td>{{ $penduduk->status_pernikahan }}</td>
                                     <td>
-                                        <a href=""><i class=""></i></a>
+                                        <a href="{{ route('keluarga.anggota.destroy',[$keluarga->id, $penduduk->id]) }}" class="btn btn-sm btn-danger">
+                                            <i class="fas fa fa-trash"></i></a>
                                     </td>
                                 </tr>
                             @endforeach

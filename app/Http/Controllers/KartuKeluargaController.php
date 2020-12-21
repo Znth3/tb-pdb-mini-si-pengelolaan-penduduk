@@ -9,14 +9,15 @@ use Illuminate\Http\Request;
 class KartuKeluargaController extends Controller
 {
     public function index(){
-        $keluarga = KartuKeluarga::withCount('penduduks')->paginate(15);
+        $keluarga = KartuKeluarga::with('jorong.nagari')->withCount('penduduks')->paginate(15);
 
         return view('keluarga.index', compact('keluarga'));
     }
 
     public function show(KartuKeluarga $keluarga){
+        $penduduks = Penduduk::with('keluarga')
+            ->where('keluarga_id', $keluarga->id)->get();
 
-        $penduduks = Penduduk::where('keluarga_id', $keluarga->id)->get();
         return view('keluarga.show', compact('keluarga', 'penduduks'));
     }
 

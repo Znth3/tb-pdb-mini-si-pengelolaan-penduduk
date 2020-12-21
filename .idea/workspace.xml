@@ -1,15 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="0cc88bb1-2a6b-41e2-96fb-4beb9916167e" name="Default Changelist" comment="" />
+    <list default="true" id="0cc88bb1-2a6b-41e2-96fb-4beb9916167e" name="Default Changelist" comment="fix class ini Penduduk.php">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/KartuKeluargaController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/KartuKeluargaController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/keluarga/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/keluarga/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/sidebar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -123,6 +151,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1lmJUveTzx3aQyMEjTMqltSM2Bz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -138,6 +167,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -154,17 +184,184 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608196351727</updated>
-      <workItem from="1608196352918" duration="5878000" />
+      <workItem from="1608196352918" duration="6173000" />
+      <workItem from="1608207664556" duration="7705000" />
+      <workItem from="1608237335858" duration="20489000" />
+      <workItem from="1608345442206" duration="586000" />
+      <workItem from="1608551973633" duration="2640000" />
     </task>
+    <task id="LOCAL-00001" summary="create all migrate">
+      <created>1608208765386</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608208765386</updated>
+    </task>
+    <task id="LOCAL-00002" summary="deklarasi tidak menggunakan timestamp pada Models">
+      <created>1608208950743</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608208950743</updated>
+    </task>
+    <task id="LOCAL-00003" summary="mengubah seluruh nama tabel pada Models">
+      <created>1608209088560</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608209088560</updated>
+    </task>
+    <task id="LOCAL-00004" summary="mengubah urutan migrasi">
+      <created>1608210352803</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1608210352803</updated>
+    </task>
+    <task id="LOCAL-00005" summary="membuat relasi pada model">
+      <created>1608211725145</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1608211725145</updated>
+    </task>
+    <task id="LOCAL-00006" summary="mengubah nama kolom">
+      <created>1608213394898</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1608213394898</updated>
+    </task>
+    <task id="LOCAL-00007" summary="membuat factory">
+      <created>1608215735828</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1608215735828</updated>
+    </task>
+    <task id="LOCAL-00008" summary="perbaikan factory dan model">
+      <created>1608249658371</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1608249658371</updated>
+    </task>
+    <task id="LOCAL-00009" summary="seeder">
+      <created>1608249704636</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1608249704636</updated>
+    </task>
+    <task id="LOCAL-00010" summary="seeder 2">
+      <created>1608249831971</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1608249831971</updated>
+    </task>
+    <task id="LOCAL-00011" summary="fix class in KartuKeluarga.php">
+      <created>1608253759737</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1608253759737</updated>
+    </task>
+    <task id="LOCAL-00012" summary="fix tampilan bootstrap">
+      <created>1608257438809</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1608257438809</updated>
+    </task>
+    <task id="LOCAL-00013" summary="index keluarga dan kofigurasi route">
+      <created>1608271820357</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1608271820357</updated>
+    </task>
+    <task id="LOCAL-00014" summary="menampilkan daftar anggota keluarga pada kartu keluarga">
+      <created>1608278496735</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1608278496735</updated>
+    </task>
+    <task id="LOCAL-00015" summary="menampilkan daftar anggota keluarga pada kartu keluarga">
+      <created>1608278501122</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1608278501122</updated>
+    </task>
+    <task id="LOCAL-00016" summary="fix class ini Penduduk.php">
+      <created>1608278985443</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1608278985443</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="create all migrate" />
+    <MESSAGE value="deklarasi tidak menggunakan timestamp pada Models" />
+    <MESSAGE value="mengubah seluruh nama tabel pada Models" />
+    <MESSAGE value="mengubah urutan migrasi" />
+    <MESSAGE value="membuat relasi pada model" />
+    <MESSAGE value="mengubah nama kolom" />
+    <MESSAGE value="membuat factory" />
+    <MESSAGE value="perbaikan factory dan model" />
+    <MESSAGE value="seeder" />
+    <MESSAGE value="seeder 2" />
+    <MESSAGE value="fix class in KartuKeluarga.php" />
+    <MESSAGE value="fix tampilan bootstrap" />
+    <MESSAGE value="index keluarga dan kofigurasi route" />
+    <MESSAGE value="menampilkan daftar anggota keluarga pada kartu keluarga" />
+    <MESSAGE value="fix class ini Penduduk.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix class ini Penduduk.php" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1608198810723">
+    <state x="441" y="186" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608249884325">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1608198810723" />
+    <state x="441" y="186" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.768@0.0.1366.768" timestamp="1608249884325" />
+    <state x="413" y="139" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1608241614296">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="413" y="139" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.768@0.0.1366.768" timestamp="1608241614296" />
+    <state x="561" y="281" key="Github.ShareDialog" timestamp="1608205953459">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="561" y="281" key="Github.ShareDialog/0.0.1366.768@0.0.1366.768" timestamp="1608205953459" />
+    <state x="184" y="28" key="SettingsEditor" timestamp="1608237359909">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="184" y="28" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1608237359909" />
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1608278505535">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1608278505535" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1608274728396">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1608274728396" />
   </component>
 </project>

@@ -4,12 +4,12 @@
     </div>
     <ul class="c-sidebar-nav ps">
         <li class="c-sidebar-nav-item">
-            <a href="" class="c-sidebar-nav-link">
+            <a href="{{ route('penduduk.index') }}" class="c-sidebar-nav-link">
                 <i class="c-sidebar-nav-icon cil-people"></i>Pengelolaan Penduduk</a>
         </li>
 
         <li class="c-sidebar-nav-item">
-            <a href="" class="c-sidebar-nav-link">
+            <a href="{{ route('keluarga.index') }}" class="c-sidebar-nav-link">
                 <i class="c-sidebar-nav-icon cil-featured-playlist"></i> Pengelolaan Kartu Keluarga</a>
         </li>
 

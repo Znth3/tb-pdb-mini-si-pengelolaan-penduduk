@@ -19,3 +19,4 @@ Route::get('/', function () {
 
 Route::resource('penduduk', \App\Http\Controllers\PendudukController::class);
 Route::resource('keluarga', \App\Http\Controllers\KartuKeluargaController::class);
+Route::resource('keluarga.anggota', \App\Http\Controllers\AnggotaKeluargaController::class)->only('destroy');
