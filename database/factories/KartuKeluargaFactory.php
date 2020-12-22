@@ -24,7 +24,7 @@ class KartuKeluargaFactory extends Factory
     {
         return [
             'no'=> $this->faker->macAddress,
-            'jorong_id'=>Jorong::factory(),
+            'jorong_id'=> Jorong::factory(),
             'tanggal_pencatatan'=>$this->faker->date('Y/m/d')
         ];
     }

@@ -19,12 +19,28 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0cc88bb1-2a6b-41e2-96fb-4beb9916167e" name="Default Changelist" comment="fix class ini Penduduk.php">
+    <list default="true" id="0cc88bb1-2a6b-41e2-96fb-4beb9916167e" name="Default Changelist" comment="tambah fitur lihat anggota keluarga">
+      <change afterPath="$PROJECT_DIR$/config/central.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/keluarga/_detail.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/keluarga/anggota/_form.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/keluarga/anggota/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/keluarga/anggota/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/keluarga/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/keluarga/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/tb-pdb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tb-pdb.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AnggotaKeluargaController.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/KartuKeluargaController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/KartuKeluargaController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PendudukController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PendudukController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/KartuKeluarga.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/KartuKeluarga.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/KartuKeluargaFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/KartuKeluargaFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/PendudukFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/PendudukFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_12_17_100001_create_pekerjaans_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_12_17_100001_create_pekerjaans_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeders/JorongSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/JorongSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/keluarga/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/keluarga/show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/sidebar.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -148,6 +164,10 @@
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-grapheme" />
       <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
       <path value="$PROJECT_DIR$/vendor/coreui/coreui" />
+      <path value="$PROJECT_DIR$/vendor/maximebf/debugbar" />
+      <path value="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/vendor/laravelcollective/html" />
     </include_path>
   </component>
   <component name="ProjectId" id="1lmJUveTzx3aQyMEjTMqltSM2Bz" />
@@ -170,6 +190,11 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Tcejorp\tb-pdb\resources\views\keluarga\anggota" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
@@ -188,7 +213,8 @@
       <workItem from="1608207664556" duration="7705000" />
       <workItem from="1608237335858" duration="20489000" />
       <workItem from="1608345442206" duration="586000" />
-      <workItem from="1608551973633" duration="2640000" />
+      <workItem from="1608551973633" duration="6899000" />
+      <workItem from="1608590157221" duration="13898000" />
     </task>
     <task id="LOCAL-00001" summary="create all migrate">
       <created>1608208765386</created>
@@ -302,7 +328,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608278985443</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="tambah fitur lihat anggota keluarga">
+      <created>1608558639007</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1608558639007</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -336,13 +369,14 @@
     <MESSAGE value="index keluarga dan kofigurasi route" />
     <MESSAGE value="menampilkan daftar anggota keluarga pada kartu keluarga" />
     <MESSAGE value="fix class ini Penduduk.php" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix class ini Penduduk.php" />
+    <MESSAGE value="tambah fitur lihat anggota keluarga" />
+    <option name="LAST_COMMIT_MESSAGE" value="tambah fitur lihat anggota keluarga" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="441" y="186" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608249884325">
+    <state x="441" y="186" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608595586717">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="441" y="186" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.768@0.0.1366.768" timestamp="1608249884325" />
+    <state x="441" y="186" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.768@0.0.1366.768" timestamp="1608595586717" />
     <state x="413" y="139" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1608241614296">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -355,13 +389,13 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="184" y="28" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1608237359909" />
-    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1608278505535">
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1608559270893">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1608278505535" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1608274728396">
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1608559270893" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1608564870361">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1608274728396" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1608564870361" />
   </component>
 </project>

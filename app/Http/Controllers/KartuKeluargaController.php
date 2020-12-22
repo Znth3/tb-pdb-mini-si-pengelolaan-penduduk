@@ -15,10 +15,8 @@ class KartuKeluargaController extends Controller
     }
 
     public function show(KartuKeluarga $keluarga){
-        $penduduks = Penduduk::with('keluarga')
-            ->where('keluarga_id', $keluarga->id)->get();
 
-        return view('keluarga.show', compact('keluarga', 'penduduks'));
+        return view('keluarga.show', compact('keluarga'));
     }
 
     public function create(){}

@@ -15,6 +15,7 @@ class JorongSeeder extends Seeder
      */
     public function run()
     {
+        //seeder untuk jorong sekaligus nagari
         $nagaris = Nagari::all();
 
         foreach ($nagaris as $nagari):

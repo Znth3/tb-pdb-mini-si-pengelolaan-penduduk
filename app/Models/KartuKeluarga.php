@@ -9,6 +9,8 @@ class KartuKeluarga extends Model
 {
     use HasFactory;
     protected $table = 'kartu_keluarga';
+    protected $dates = ['tanggal_pencatatan'];
+
 
     public function penduduks(){
         return $this->hasMany(Penduduk::class, 'keluarga_id', 'id');
