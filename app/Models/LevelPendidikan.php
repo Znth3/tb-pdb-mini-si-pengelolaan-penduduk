@@ -10,5 +10,8 @@ class LevelPendidikan extends Model
     use HasFactory;
     protected $table = 'level_pendidikan';
 
+    public function penduduks(){
+        return $this->hasMany(Penduduk::class);
+    }
     public $timestamps = false;
 }

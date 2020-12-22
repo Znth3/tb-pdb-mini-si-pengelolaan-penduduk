@@ -15,7 +15,7 @@ class Jorong extends Model
     }
 
     public function keluargas(){
-        return $this->hasMany(KartuKeluarga::class );
+        return $this->hasMany(KartuKeluarga::class, 'jorong_id');
     }
 
     public $timestamps = false;

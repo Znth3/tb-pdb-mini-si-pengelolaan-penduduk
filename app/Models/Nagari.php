@@ -11,7 +11,7 @@ class Nagari extends Model
     protected $table = 'nagari';
 
     public function jorongs(){
-        return $this->hasMany(Jorong::class);
+        return $this->hasMany(Jorong::class, 'nagari_id');
     }
 
     public $timestamps = false;

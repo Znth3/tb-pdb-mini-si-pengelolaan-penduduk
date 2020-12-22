@@ -14,8 +14,18 @@
         </li>
 
         <li class="c-sidebar-nav-item">
-            <a href="" class="c-sidebar-nav-link">
-                <i class="c-sidebar-nav-icon cil-file"></i> Laporan</a>
+            <a href="{{ route('produktif') }}" class="c-sidebar-nav-link">
+                <i class="c-sidebar-nav-icon cil-file"></i>Laporan Usia Produktif</a>
+        </li>
+
+        <li class="c-sidebar-nav-item">
+            <a href="{{ route('nagari') }}" class="c-sidebar-nav-link">
+                <i class="c-sidebar-nav-icon cil-file"></i>Laporan Penduduk Tiap Nagari</a>
+        </li>
+
+        <li class="c-sidebar-nav-item">
+            <a href="{{ route('educate') }}" class="c-sidebar-nav-link">
+                <i class="c-sidebar-nav-icon cil-file"></i>Laporan Penduduk SMP</a>
         </li>
     </ul>
     <button class="c-sidebar-minimizer c-class-toggler" type="button" data-target="_parent" data-class="c-sidebar-minimized"></button>

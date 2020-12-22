@@ -1,6 +1,17 @@
+{{--Kartu Keluarga--}}
+<div class="form-group">
+    <label class="form-label" for="keluarga">No Kartu Keluarga:</label>
+    <select id="keluarga" name="keluarga" class="form-control @error('kwn') is-invalid @enderror">
+        <option value="" selected disabled>--Pilih No Kartu Keluarga--</option>
+        @foreach($keluargas as $keluarga)
+            <option value="{{ $keluarga->id }}">{{$keluarga->no}}</option>
+        @endforeach
+    </select>
 
-
-<input class="hidden" hidden name="keluarga" value="{{ $keluarga->id }}"></input>
+    @error('keluarga')
+    <div class="invalid-feedback">{{ $errors->first('kwn') }}</div>
+    @enderror
+</div>
 
 {{--Nama--}}
 <div class="form-group">
@@ -63,9 +74,9 @@
     <label class="form-label" for="pekerjaan">Pekerjaan:</label>
     <select id="pekerjaan" name="pekerjaan" class="form-control @error('pekerjaan') is-invalid @enderror">
         <option value="" disabled selected>--Pilih Pekerjaan--</option>
-    @foreach($kerjas as $kerja)
+        @foreach($kerjas as $kerja)
             <option value="{{ $kerja->id }}">{{$kerja->nama}}</option>
-    @endforeach
+        @endforeach
     </select>
 
     @error('pekerjaan')
